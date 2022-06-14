@@ -1,12 +1,12 @@
 if [ -z $UPSTREAM_REPO ]
 then
   echo "Cloning main Repository"
-  git clone https://github.com/doctoxer/Dva_Official.git /Dva_Official
+  git clone https://github.com/doctoxer/D-Va.git /D-Va
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
-  git clone $UPSTREAM_REPO /Dva_Official
+  git clone $UPSTREAM_REPO /D-Va
 fi
-cd /Dva_Official
+cd /D-Va
 pip3 install -U -r requirements.txt
 echo "Starting DVa....🔥"
 python3 bot.py
