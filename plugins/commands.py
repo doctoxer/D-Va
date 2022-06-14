@@ -23,7 +23,7 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
             [
-                InlineKeyboardButton('💠 CHΛИИΞL 💠', url='https://t.me/+hpnKBqJC_cQ3ZjU1')
+                InlineKeyboardButton('💠 CHΛИИΞL 💠', url='https://t.me/+_CQNvYw_jHVjNjk9')
             ],
             [
                 InlineKeyboardButton('♻️ HΞLᎮ ♻️', url=f"https://t.me/{temp.U_NAME}?start=help")
@@ -45,12 +45,12 @@ async def start(client, message):
                      InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('💠 CHΛИИΞL 💠', url='https://t.me/+kn56vEyCQto3MDdl'),
-            InlineKeyboardButton('💠 GᏒOUᎮ 💠', url='https://t.me/+EtniiA299YFjZmU1')
+            InlineKeyboardButton('💠 GᏒOUᎮ 💠', url='https://t.me/+1H3gN_hNeMdjODg9')
             ],[      
             InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
             InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
             ],[
-            InlineKeyboardButton('💠 SΞΛᏒCH HΞᏒΞ 💠', switch_inline_query_current_chat='')
+            InlineKeyboardButton('💠 ᴀᴅᴍɪɴ 💠', url='https://t.me/AjayGhali_TG')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)        
         await message.reply_photo(
@@ -92,12 +92,12 @@ async def start(client, message):
             InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('💠 CHΛИИΞL 💠', url='https://t.me/+kn56vEyCQto3MDdl'),
-            InlineKeyboardButton('💠 GᏒOUᎮ 💠', url='https://t.me/+EtniiA299YFjZmU1')
-            ],[      
+            InlineKeyboardButton('💠 GᏒOUᎮ 💠', url='https://t.me/+1H3gN_hNeMdjODg9')
+            ],[    
             InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
             InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
             ],[
-            InlineKeyboardButton('💠 SΞΛᏒCH HΞᏒΞ 💠', switch_inline_query_current_chat='')
+            InlineKeyboardButton('💠 ᴀᴅᴍɪɴ 💠', url='https://t.me/AjayGhali_TG')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_chat_action("Typing")
