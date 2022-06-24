@@ -148,11 +148,7 @@ async def next_page(bot, query):
                 ),
             ]
             for file in files
-        ]
-     else:
-         await asyncio.sleep(0)
-         await btn.delete()
-        
+        ]        
 
     if 0 < offset <= 10:
         off_set = 0
