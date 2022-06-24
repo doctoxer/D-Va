@@ -182,7 +182,7 @@ async def next_page(bot, query):
         pass
     await query.answer()
     else:
-            k = await query.message.edit('Filter For Reducing Copright 👨🏻‍💻')
+            btn = await query.message.edit('Filter For Reducing Copright 👨🏻‍💻')
             await asyncio.sleep(10)
             await k.delete()
 
