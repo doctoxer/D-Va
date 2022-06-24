@@ -148,7 +148,7 @@ async def next_page(bot, query):
                 ),
             ]
             for file in files
-        ]        
+        ]     
 
     if 0 < offset <= 10:
         off_set = 0
@@ -181,6 +181,10 @@ async def next_page(bot, query):
     except MessageNotModified:
         pass
     await query.answer()
+    else:
+            k = await query.message.edit('Filter For Reducing Copright 👨🏻‍💻')
+            await asyncio.sleep(10)
+            await k.delete()
 
 
 @Client.on_callback_query(filters.regex(r"^spolling"))
