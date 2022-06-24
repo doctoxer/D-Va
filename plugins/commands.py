@@ -23,7 +23,7 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
             [
-                InlineKeyboardButton('💠 CHΛИИΞL 💠', url='https://t.me/+_CQNvYw_jHVjNjk9')
+                InlineKeyboardButton('💠 CHΛИИΞL 💠', url='https://t.me/+QVNnkTmeQQFhMDhl')
             ],
             [
                 InlineKeyboardButton('♻️ HΞLᎮ ♻️', url=f"https://t.me/{temp.U_NAME}?start=help")
@@ -59,7 +59,7 @@ async def start(client, message):
             reply_markup=reply_markup,
             parse_mode='html'
         )
-        await message.reply_chat_action("Typing")
+        await message.reply_chat_action("MoviePalace")
         m=await message.reply_sticker("CAACAgUAAxkBAAEEvu5igpuz0jn3t1L3DdJij8UDfwEL9AACwAQAAm5eiVa3iQM7WyHn1yQE") 
         await asyncio.sleep(2)
         await m.delete()
@@ -73,7 +73,7 @@ async def start(client, message):
         btn = [
             [
                 InlineKeyboardButton(
-                    "🔥 JOIИ CHΛИИΞL 🔥", url=invite_link.invite_link
+                    "🫰🏻 JOIИ CHΛИИΞL 🫰🏻", url=invite_link.invite_link
                 )
             ]
         ]
@@ -82,25 +82,25 @@ async def start(client, message):
             btn.append([InlineKeyboardButton("🔁 𝐓𝐫𝐲 𝐀𝐠𝐚𝐢𝐧 🔁", callback_data=f"checksub#{message.command[1]}")])
         await client.send_message(
             chat_id=message.from_user.id,
-            text="**𝑱𝒐𝒊𝒏 𝑶𝒖𝒓 𝑴𝒐𝒗𝒊𝒆 𝑼𝒑𝒅𝒂𝒕𝒆𝒔 𝑪𝒉𝒂𝒏𝒏𝒆𝒍 𝑻𝒐 𝑼𝒔𝒆 𝑻𝒉𝒊𝒔 𝑩𝒐𝒕!**",
+            text="**𝑱𝒐𝒊𝒏 𝑶𝒖𝒓 𝑴𝒐𝒗𝒊𝒆 𝑼𝒑𝒅𝒂𝒕𝒆𝒔 𝑪𝒉𝒂𝒏𝒏𝒆𝒍 𝑻𝒐 𝑼𝒔𝒆 𝑻𝒉𝒊𝒔 𝑩𝒐𝒕! \nഫയൽ ലഭിക്കാൻ ഞങ്ങളുടെ സിനിമാ ചാനലിൽ ചേരുക**",
             reply_markup=InlineKeyboardMarkup(btn),
             parse_mode="markdown"
             )
         return
     if len(message.command) ==2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-            InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                     InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('💠 CHΛИИΞL 💠', url='https://t.me/+kn56vEyCQto3MDdl'),
             InlineKeyboardButton('💠 GᏒOUᎮ 💠', url='https://t.me/+1H3gN_hNeMdjODg9')
-            ],[    
+            ],[      
             InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
             InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
             ],[
             InlineKeyboardButton('💠 ᴀᴅᴍɪɴ 💠', url='https://t.me/AjayGhali_TG')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        await message.reply_chat_action("Typing")
+        await message.reply_chat_action("D-Va Offcial")
         m=await message.reply_sticker("CAACAgUAAxkBAAEEvu5igpuz0jn3t1L3DdJij8UDfwEL9AACwAQAAm5eiVa3iQM7WyHn1yQE") 
         await asyncio.sleep(2)
         await m.delete()
