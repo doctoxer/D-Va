@@ -1,7 +1,7 @@
 if [ -z $UPSTREAM_REPO ]
 then
   echo "Cloning main Repository"
-  git clone https://github.com/doctoxer/D-Va.git /D-Va
+  git clone https://github.com/amalmathew678/D-Va.git /D-Va
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
   git clone $UPSTREAM_REPO /D-Va
